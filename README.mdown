@@ -1,0 +1,14 @@
+# Git.io OS X Service
+
+This is a [Service](http://en.wikipedia.org/wiki/Services_menu) using github's URL Shortener [Git.io](https://github.com/blog/985-git-io-github-url-shortener) for OS X.
+
+## Installation
+
+Download the Service and open it. OS X will ask whether you want to install it to your `~/Library/Services` folder or open it in Automator. 
+When installed correctly you'll see a "git shortener" item in the Services System Preferences pane.
+
+## Usage
+
+Go to Safari and surf to [github](http://github.com), select any URL, right click to bring up the _Services_ menu and select _git shortener_. 
+You'll see Growl notification displaying the selected URL and shortly after that, the shortened Git.io URL.
+The shortened URL is added to the clipboard, so you can easily paste it wherever needed.

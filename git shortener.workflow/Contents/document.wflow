@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>330</string>
+	<key>AMApplicationVersion</key>
+	<string>2.2.1</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMActionVersion</key>
+				<string>1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>TextEdit</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>enteredRTFDText</key>
+					<dict/>
+					<key>enteredText</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>Single</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.attributed-string</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Specified Text.action</string>
+				<key>ActionName</key>
+				<string>Get Specified Text</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>enteredRTFDData</key>
+					<data>
+					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
+					AQAAAC4dAQAAKwAAAAEAAAAVAQAAe1xydGYx
+					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
+					MTM4XGNvY29hc3VicnRmMjMwCntcZm9udHRi
+					bFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZl
+					dGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxn
+					cmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1
+					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
+					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
+					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+					YXJkaXJuYXR1cmFsCgpcZjBcZnMyNCBcY2Yw
+					IGh0dHBzOi8vZ2l0aHViLmNvbS9kbGluc2lu
+					fQEAAAAjAAAAAQAAAAcAAABUWFQucnRmEAAA
+					AE6Mvk62AQAAAAAAAAAAAAA=
+					</data>
+					<key>enteredRTFDText</key>
+					<string></string>
+					<key>enteredText</key>
+					<string>https://github.com/dlinsin</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.GetSpecifiedText</string>
+				<key>CFBundleVersion</key>
+				<string>1.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMGetSpecifiedTextAction</string>
+				<key>Keywords</key>
+				<array>
+					<string>Get</string>
+					<string>Text</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>D22C5A60-4DF9-46A5-9423-4E0F6D813D03</string>
+				<key>UUID</key>
+				<string>0A65075F-48F1-4B1A-8E8C-2BAAFCE52AEB</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>TextEdit</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>enteredRTFDText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>enteredText</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:1288.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Specified Text.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}	set shortned to (input as text)	tell application id "com.Growl.GrowlHelperApp"		-- Make a list of all the notification types 		-- that this script will ever send:		set the allNotificationsList to ¬			{"git.io Notification"}				-- Make a list of the notifications 		-- that will be enabled by default.      		-- Those not enabled by default can be enabled later 		-- in the 'Applications' tab of the Growl preferences.		set the enabledNotificationsList to ¬			{"git.io Notification"}				-- Register our script with growl.		-- You can optionally (as here) set a default icon 		-- for this script's notifications.		register as application ¬			"git.io Growl" all notifications allNotificationsList ¬			default notifications enabledNotificationsList ¬			icon of application "GitHub"				--       Send a Notification...		notify with name ¬			"git.io Notification" title ¬			"git.io shortening..." description ¬			shortned application name "git.io Growl"			end tell	return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>61A4268A-00EB-460A-B6E1-F637550EF00F</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>DBAFC8DD-A532-43B6-8D44-BCD10C2EE77C</string>
+				<key>UUID</key>
+				<string>8ACF4CED-5876-4EB0-8DAB-2D5745AE802D</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:1121.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>curl -i http://git.io -F url=$1</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>3C52C426-16B2-4BA6-B3D9-F5C5CFBC5D08</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>EA5BAA0A-6483-49F8-ACFA-08743E65C277</string>
+				<key>UUID</key>
+				<string>3F8A4DD9-9D19-491A-9E68-9A2C70B9AA0E</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:808.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Unknown</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>type</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Extract Data from Text.action</string>
+				<key>ActionName</key>
+				<string>Extract URLs from Text</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>type</key>
+					<string>com.apple.Automator.text.url</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Extract_Data_from_Text</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryText</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMExtractDataFromTextAction</string>
+				<key>InputUUID</key>
+				<string>2E5B160C-06E4-4808-B090-398BA3822368</string>
+				<key>Keywords</key>
+				<array>
+					<string>extract</string>
+					<string>date</string>
+					<string>URL</string>
+					<string>address</string>
+					<string>phone number</string>
+					<string>email address</string>
+					<string>detect</string>
+					<string>text</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>2A1858EA-6313-41C1-A0AE-B15CFBA23EDD</string>
+				<key>ShowWhenRun</key>
+				<false/>
+				<key>UUID</key>
+				<string>EB95569E-DC46-4C85-B7B7-A6E72002B414</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>(* Primary Application used by this action goes here. *)</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>type</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:625.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Extract Data from Text.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/View Results.action</string>
+				<key>ActionName</key>
+				<string>View Results</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.LogOutput</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>LogOutputAction</string>
+				<key>InputUUID</key>
+				<string>B81F3435-4AE6-4BF3-BDC7-B6C6C60CAFB4</string>
+				<key>Keywords</key>
+				<array>
+					<string>Display</string>
+					<string>Show</string>
+					<string>Log</string>
+					<string>Output</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>C104781D-1E6E-4349-BAD4-FC0B68DD382B</string>
+				<key>UUID</key>
+				<string>F360B3FF-DFAC-489F-850A-F08C785D7CAC</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:514.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/View Results.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}	set shortned to (input as text)	tell application id "com.Growl.GrowlHelperApp"		-- Make a list of all the notification types 		-- that this script will ever send:		set the allNotificationsList to ¬			{"git.io Notification"}				-- Make a list of the notifications 		-- that will be enabled by default.      		-- Those not enabled by default can be enabled later 		-- in the 'Applications' tab of the Growl preferences.		set the enabledNotificationsList to ¬			{"git.io Notification"}				-- Register our script with growl.		-- You can optionally (as here) set a default icon 		-- for this script's notifications.		register as application ¬			"git.io Growl" all notifications allNotificationsList ¬			default notifications enabledNotificationsList ¬			icon of application "GitHub"				--       Send a Notification...		notify with name ¬			"git.io Notification" title ¬			"git.io shortened" description ¬			shortned application name "git.io Growl"			end tell	set the clipboard to shortnedend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>4F2AD21B-BDD3-4C4B-BFFC-67BC957B64C5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>9D76CEB1-88C3-43C0-8B8B-B8E4DA7C7811</string>
+				<key>UUID</key>
+				<string>FFF8345F-3F8A-4193-AE50-A10F05F86C66</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:333.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>072CA241-DFAB-4CFF-BFF4-9425F947D681</key>
+		<dict>
+			<key>from</key>
+			<string>8ACF4CED-5876-4EB0-8DAB-2D5745AE802D - 8ACF4CED-5876-4EB0-8DAB-2D5745AE802D</string>
+			<key>to</key>
+			<string>3F8A4DD9-9D19-491A-9E68-9A2C70B9AA0E - 3F8A4DD9-9D19-491A-9E68-9A2C70B9AA0E</string>
+		</dict>
+		<key>0895F473-8B55-430C-92AB-F699253E8F7D</key>
+		<dict>
+			<key>from</key>
+			<string>0A65075F-48F1-4B1A-8E8C-2BAAFCE52AEB - 0A65075F-48F1-4B1A-8E8C-2BAAFCE52AEB</string>
+			<key>to</key>
+			<string>8ACF4CED-5876-4EB0-8DAB-2D5745AE802D - 8ACF4CED-5876-4EB0-8DAB-2D5745AE802D</string>
+		</dict>
+		<key>46B07419-D6EB-4288-8F43-59D3AFF217FB</key>
+		<dict>
+			<key>from</key>
+			<string>F360B3FF-DFAC-489F-850A-F08C785D7CAC - F360B3FF-DFAC-489F-850A-F08C785D7CAC</string>
+			<key>to</key>
+			<string>FFF8345F-3F8A-4193-AE50-A10F05F86C66 - FFF8345F-3F8A-4193-AE50-A10F05F86C66</string>
+		</dict>
+		<key>AEDBD9B5-F784-4AAD-9A41-F9C04C5470BD</key>
+		<dict>
+			<key>from</key>
+			<string>EB95569E-DC46-4C85-B7B7-A6E72002B414 - EB95569E-DC46-4C85-B7B7-A6E72002B414</string>
+			<key>to</key>
+			<string>F360B3FF-DFAC-489F-850A-F08C785D7CAC - F360B3FF-DFAC-489F-850A-F08C785D7CAC</string>
+		</dict>
+		<key>D7AE8C0E-9D64-41F5-BAAE-71298849846D</key>
+		<dict>
+			<key>from</key>
+			<string>3F8A4DD9-9D19-491A-9E68-9A2C70B9AA0E - 3F8A4DD9-9D19-491A-9E68-9A2C70B9AA0E</string>
+			<key>to</key>
+			<string>EB95569E-DC46-4C85-B7B7-A6E72002B414 - EB95569E-DC46-4C85-B7B7-A6E72002B414</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string></string>
+		<key>serviceApplicationPath</key>
+		<string></string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.text.url</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>1</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
